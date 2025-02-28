@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BARNUM.cz – Reklama, tisk, textil, dárkové předměty</title>
+    <title>BARNUM.cz – Textil</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
             text-align: center;
         }
         header {
@@ -18,23 +16,30 @@
             color: white;
             padding: 20px 0;
         }
-        .logo {
-            max-width: 150px;
-            display: block;
-            margin: 0 auto 10px;
+        .nav {
+            background-color: #990000;
+            padding: 10px 0;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
         }
         .container {
             padding: 20px;
         }
-        h1, h2 {
-            color: #cc0000;
+        iframe {
+            width: 100%;
+            height: 800px;
+            border: none;
         }
         footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
+            padding: 20px 0;
+            position: relative;
             width: 100%;
             bottom: 0;
         }
@@ -42,19 +47,18 @@
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="BARNUM.cz Logo" class="logo">
-        <h1>BARNUM.cz</h1>
-        <p>reklama – tisk – textil – dárkové předměty</p>
+        <h1>BARNUM.cz – Textil</h1>
     </header>
+    <nav class="nav">
+        <a href="index.html">Domů</a>
+        <a href="textil.html">Textil</a>
+    </nav>
     <div class="container">
-        <h2>Kontakt</h2>
-    
-        <p><strong>Adresa:</strong> Hluchov 8, 79841 Hluchov, Česká republika</p>
-        <p><strong>Telefon:</strong> +420 723 326 287</p>
-        <p><strong>Email:</strong> drexlerdavid@gmail.com</p>
+        <iframe src="https://onlinecatalog.malfini.com/barnum/cs/catalog"></iframe>
     </div>
     <footer>
         <p>&copy; 2025 BARNUM.cz – Všechna práva vyhrazena</p>
+        <p><strong>Telefon:</strong> +420 723 326 287 | <strong>Email:</strong> drexlerdavid@gmail.com</p>
     </footer>
 </body>
 </html>
