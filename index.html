@@ -1,81 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="cs">
 <head>
-    <link rel="icon" type="image/png" href="favicon.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BARNUM.cz – Výroba reklamy</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #cc0000;
-            color: white;
-            padding: 20px 0;
-        }
-        .logo {
-            max-width: 150px;
-            display: block;
-            margin: 0 auto;
-        }
-        .nav {
-            background-color: #990000;
-            padding: 10px 0;
-        }
-        .nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            display: inline-block;
-        }
-        .container {
-            padding: 20px;
-        }
-        .services {
-            list-style: none;
-            padding: 0;
-        }
-        .services li {
-            font-size: 1.2em;
-            margin: 10px 0;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-            position: relative;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BARNUM.cz – Řezaná grafika a polepy</title>
+  <meta name="description" content="Barnum.cz – výroba a aplikace řezané grafiky, polepy výloh a vozidel, štítky, samolepky.">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="logo-icon.svg" type="image/svg+xml">
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="BARNUM.cz Logo" class="logo">
-    </header>
-    <nav class="nav">
-        <a href="index.html">Výroba reklamy</a>
-        <a href="textil.html">Textil</a>
+  <header class="site-header">
+    <a class="brand" href="/">
+      <img src="logo-barnum.svg" alt="BARNUM.cz" width="180" height="48">
+    </a>
+    <nav class="main-nav">
+      <a href="#sluzby">Služby</a>
+      <a href="#reference">Reference</a>
+      <a href="#kontakt" class="btn">Kontakt</a>
     </nav>
-    <div class="container">
-        <h2>Naše služby</h2>
-        <ul class="services">
-            <li>Polep automobilů</li>
-            <li>Výroba benneru</li>
-            <li>Tisk etiket</li>
-            <li>Světelné reklamy</li>
-            <li>Reklamní předměty</li>
-            <li>Potisk textilu</li>
-        </ul>
-    </div>
-    <footer>
-        <p><strong>Telefon:</strong> +420 723 326 287 | <strong>Email:</strong> drexlerdavid@gmail.com</p>
-        <p>&copy; 2025 BARNUM.cz – Všechna práva vyhrazena</p>
-    </footer>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <h1>Řezaná grafika a polepy, které vydrží</h1>
+        <p class="lead">Od návrhu po instalaci. Rychle, čistě, přesně.</p>
+        <a class="btn btn-primary" href="#kontakt">Nezávazná poptávka</a>
+      </div>
+    </section>
+
+    <section id="sluzby" class="section">
+      <h2>Služby</h2>
+      <ul class="cards">
+        <li>Výroba řezané grafiky</li>
+        <li>Polepy výloh a vozidel</li>
+        <li>Samolepky, štítky, bezpečnostní piktogramy</li>
+      </ul>
+    </section>
+
+    <section id="reference" class="section">
+      <h2>Reference</h2>
+      <p>Brzy doplníme fotky a krátké ukázky.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="kontakt">
+    <p>© BARNUM.cz • info@barnum.cz • +420 123 456 789</p>
+  </footer>
 </body>
 </html>
